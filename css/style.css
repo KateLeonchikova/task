@@ -1,0 +1,24 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 35px;
+}
+
+label {
+    width: 90px;
+    display: inline-block;
+}
+
+.btn {
+    padding: 3px 7px;
+    background-color: rgb(182, 188, 186);
+    border-radius: 7px;
+    font-size: 16px; 
+    cursor: pointer;
+}
+
+::placeholder {
+    opacity: 0.5;
+    border-radius: 2px;
+}
